@@ -4,19 +4,19 @@ import { Star } from 'lucide-react';
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Aarti S., 33",
+      name: "Aarti S., 33", 
       emoji: "🧕🏽",
-      text: "I used to eat every time I was sad or stressed. This course gave me tools to stop and understand myself. I've lost 5kg and gained peace."
+      text: "I used to eat every time I felt stressed. Now, I feel in control and lighter — not just in my body, but in my mind."
     },
     {
       name: "Sneha R., 27", 
       emoji: "🧘🏽‍♀️",
-      text: "No one talks about how much emotions control our eating habits. This changed everything."
+      text: "This isn't another diet. It healed my relationship with food and myself."
     },
     {
-      name: "Manisha D., 35",
+      name: "Priya M., 29",
       emoji: "💗",
-      text: "I finally feel in control without guilt or stress. I can enjoy food again!"
+      text: "Finally, a program that understands Indian women and our unique challenges with food and family expectations."
     }
   ];
 
@@ -27,13 +27,13 @@ const Testimonials = () => {
     >
       <div className="max-w-6xl mx-auto">
         <h2 
-          className="text-3xl md:text-5xl font-bold text-center mb-16"
+          className="text-3xl md:text-4xl font-bold text-center mb-16"
           style={{ 
             fontFamily: 'Playfair Display, serif', 
             color: '#2B3A55' 
           }}
         >
-          What Real Women Say…
+          WHAT OUR STUDENTS SAY
         </h2>
         
         <div className="grid md:grid-cols-3 gap-8">

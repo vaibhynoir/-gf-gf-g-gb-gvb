@@ -25,24 +25,23 @@ const Hero = () => {
             color: '#2B3A55' 
           }}
         >
-          You're Not Lazy.{' '}
+          HEAL YOUR RELATIONSHIP WITH FOOD & BODY{' '}
           <span 
             className="block mt-1"
-            style={{ color: '#9EB384' }}
+            style={{ color: '#9EB384', fontSize: '0.8em' }}
           >
-            You're Just Trapped in the Cycle.
+            Stop Emotional Eating, Break the Diet-Binge-Guilt Loop
           </span>
         </h1>
         
         <p 
-          className="text-base md:text-xl lg:text-2xl mb-6 leading-relaxed max-w-3xl mx-auto"
+          className="text-base md:text-xl mb-6 leading-relaxed max-w-3xl mx-auto"
           style={{ 
             fontFamily: 'Montserrat, sans-serif', 
             color: '#2B3A55' 
           }}
         >
-          Break the Loop of Diet → Binge → Guilt — and Build a Lifestyle You Can Stick to{' '}
-          <span className="font-semibold">(Without Willpower or Self-Hate).</span>
+          Designed specifically for Indian women, this 7-module journey gives you the mindset shifts, tools, and daily structure to finally feel free around food — without giving up your favorite meals.
         </p>
 
         {/* VSL Placeholder */}
@@ -65,13 +64,13 @@ const Hero = () => {
                 className="text-white text-base md:text-xl font-bold mb-2"
                 style={{ fontFamily: 'Playfair Display, serif' }}
               >
-                Watch: How Sarah Broke Her 10-Year Binge Cycle
+                Your Healing Journey
               </h3>
               <p 
                 className="text-white/90 text-xs md:text-base"
                 style={{ fontFamily: 'Montserrat, sans-serif' }}
               >
-                See the exact emotional healing process that changed everything
+                Witness the real change that happens when you stop punishing yourself and start nourishing your mind and body.
               </p>
             </div>
             <div className="absolute top-4 right-4 px-3 py-1 bg-black/70 text-white text-sm rounded-full">
@@ -87,17 +86,20 @@ const Hero = () => {
             fontFamily: 'Montserrat, sans-serif'
           }}
         >
-          👉 Join the Program – Just ₹4,999
+          BEGIN YOUR HEALING NOW
           <ArrowRight className="w-6 h-6" />
         </button>
 
+        <div className="mb-4 text-center">
+          <p 
+            className="text-sm md:text-base font-semibold"
+            style={{ color: '#2B3A55', fontFamily: 'Montserrat, sans-serif' }}
+          >
+            ⏳ Limited-Time Offer: Special Price Ends in 48 Hours!
+          </p>
+        </div>
+
         <div className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-8 text-xs md:text-base">
-          <div className="flex items-center gap-2">
-            <CheckCircle className="w-5 h-5" style={{ color: '#9EB384' }} />
-            <span style={{ color: '#2B3A55', fontFamily: 'Montserrat, sans-serif' }}>
-              100% Online
-            </span>
-          </div>
           <div className="flex items-center gap-2">
             <CheckCircle className="w-5 h-5" style={{ color: '#9EB384' }} />
             <span style={{ color: '#2B3A55', fontFamily: 'Montserrat, sans-serif' }}>
@@ -107,7 +109,13 @@ const Hero = () => {
           <div className="flex items-center gap-2">
             <CheckCircle className="w-5 h-5" style={{ color: '#9EB384' }} />
             <span style={{ color: '#2B3A55', fontFamily: 'Montserrat, sans-serif' }}>
-              Made for Indian Women
+              Expert Support
+            </span>
+          </div>
+          <div className="flex items-center gap-2">
+            <CheckCircle className="w-5 h-5" style={{ color: '#9EB384' }} />
+            <span style={{ color: '#2B3A55', fontFamily: 'Montserrat, sans-serif' }}>
+              Satisfaction Guaranteed
             </span>
           </div>
         </div>

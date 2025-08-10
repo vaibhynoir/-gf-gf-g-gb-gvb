@@ -1,25 +1,6 @@
 import React from 'react';
-import { Monitor, Unlock, Heart } from 'lucide-react';
 
 const CourseIntro = () => {
-  const features = [
-    {
-      icon: <Monitor className="w-8 h-8" />,
-      title: "100% Online",
-      description: "Learn at your own pace, anywhere"
-    },
-    {
-      icon: <Unlock className="w-8 h-8" />,
-      title: "Lifetime Access", 
-      description: "Keep coming back whenever you need"
-    },
-    {
-      icon: <Heart className="w-8 h-8" />,
-      title: "Made for Indian Women",
-      description: "Culturally aware and sensitive"
-    }
-  ];
-
   return (
     <section 
       className="py-16 md:py-24 px-4"
@@ -28,62 +9,39 @@ const CourseIntro = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 
-            className="text-3xl md:text-5xl font-bold mb-6"
+            className="text-3xl md:text-4xl font-bold mb-8"
             style={{ 
               fontFamily: 'Playfair Display, serif', 
               color: '#2B3A55' 
             }}
           >
-            Introducing...{' '}
-            <span style={{ color: '#9EB384' }}>
-              "Break the Cycle"
-            </span>
+            PROVEN RESULTS
           </h2>
           
           <p 
-            className="text-xl md:text-2xl max-w-3xl mx-auto"
+            className="text-lg mb-8 max-w-3xl mx-auto"
             style={{ 
               fontFamily: 'Montserrat, sans-serif', 
               color: '#2B3A55' 
             }}
           >
-            A 7-Module Digital Course To Heal Your Relationship With Food, Mind & Body
+            We've helped hundreds of women end emotional eating, feel confident in their skin, and finally maintain a healthy lifestyle.
           </p>
-        </div>
-        
-        <div className="grid md:grid-cols-3 gap-8">
-          {features.map((feature, index) => (
-            <div 
-              key={index}
-              className="text-center p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
-              style={{ backgroundColor: '#FFDDD2' }}
-            >
-              <div 
-                className="flex justify-center mb-4"
-                style={{ color: '#9EB384' }}
-              >
-                {feature.icon}
-              </div>
-              <h3 
-                className="text-xl font-bold mb-3"
-                style={{ 
-                  fontFamily: 'Playfair Display, serif', 
-                  color: '#2B3A55' 
-                }}
-              >
-                {feature.title}
-              </h3>
-              <p 
-                className="text-base"
-                style={{ 
-                  fontFamily: 'Montserrat, sans-serif', 
-                  color: '#2B3A55' 
-                }}
-              >
-                {feature.description}
-              </p>
+          
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="text-center p-8 rounded-2xl shadow-lg" style={{ backgroundColor: '#FFDDD2' }}>
+              <div className="text-4xl font-bold mb-2" style={{ color: '#9EB384' }}>85%</div>
+              <p className="font-semibold">of students report less binge eating in 4 weeks</p>
             </div>
-          ))}
+            <div className="text-center p-8 rounded-2xl shadow-lg" style={{ backgroundColor: '#FFDDD2' }}>
+              <div className="text-4xl font-bold mb-2" style={{ color: '#9EB384' }}>92%</div>
+              <p className="font-semibold">feel more in control of food choices</p>
+            </div>
+            <div className="text-center p-8 rounded-2xl shadow-lg" style={{ backgroundColor: '#FFDDD2' }}>
+              <div className="text-4xl font-bold mb-2" style={{ color: '#9EB384' }}>100%</div>
+              <p className="font-semibold">say they'd recommend this program to a friend</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

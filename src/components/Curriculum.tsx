@@ -44,16 +44,13 @@ const Curriculum = () => {
     <section className="py-16 md:py-24 px-4">
       <div className="max-w-6xl mx-auto">
         <h2 
-          className="text-3xl md:text-5xl font-bold text-center mb-16"
+          className="text-3xl md:text-4xl font-bold text-center mb-16"
           style={{ 
             fontFamily: 'Playfair Display, serif', 
             color: '#2B3A55' 
           }}
         >
-          7 Modules That Will{' '}
-          <span style={{ color: '#9EB384' }}>
-            Transform Your Life
-          </span>
+          THE 7 MODULES THAT WILL CHANGE YOUR LIFE
         </h2>
         
         <div className="space-y-8">
@@ -88,7 +85,7 @@ const Curriculum = () => {
                   {module.title}
                 </h3>
                 <p 
-                  className="text-lg leading-relaxed"
+                  className="text-base leading-relaxed"
                   style={{ 
                     fontFamily: 'Montserrat, sans-serif', 
                     color: '#2B3A55' 

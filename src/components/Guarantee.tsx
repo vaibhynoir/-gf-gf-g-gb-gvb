@@ -18,13 +18,13 @@ const Guarantee = () => {
         </div>
         
         <h2 
-          className="text-3xl md:text-5xl font-bold mb-8"
+          className="text-3xl md:text-4xl font-bold mb-8"
           style={{ 
             fontFamily: 'Playfair Display, serif', 
             color: '#2B3A55' 
           }}
         >
-          🔐 100% Risk-Free Guarantee
+          🔐 7-Day Money-Back Guarantee
         </h2>
         
         <div 
@@ -38,7 +38,7 @@ const Guarantee = () => {
               color: '#2B3A55' 
             }}
           >
-            Try the course for <strong>7 days</strong>. If you don't feel emotionally better or see change in your relationship with food, we'll refund you. <strong>No questions asked.</strong>
+            If you don't feel more in control of your eating habits within 7 days, we'll refund you — no questions asked.
           </p>
         </div>
       </div>
